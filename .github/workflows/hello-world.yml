@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: sayHello
+        run: make sayHello
