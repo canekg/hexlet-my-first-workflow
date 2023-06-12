@@ -4,7 +4,9 @@ jobs:
   my-job:
     strategy:
       # Node versions list
+      matrix:
+        node-version: [20.x]
     runs-on: ubuntu-latest
-    steps:
-      - name: my-step
-        run: make sayHello
+    steps: 
+      - uses: actions/checkout@v3
+      - run: sayHello
