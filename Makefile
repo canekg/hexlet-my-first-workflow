@@ -1,2 +1,2 @@
-say-hello:
+sayHello:
 	node bin/greetings.js
